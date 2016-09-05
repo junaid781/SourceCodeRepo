@@ -6,6 +6,10 @@ These tutorials can be helpful if you are just starting out with git
 
 https://www.youtube.com/watch?v=Y9XZQO1n_7c
 
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+If there is anything else that you would like a guide on or simply have more questions, please contact me (Hamza).
+
 # Starting a new repository.
 git init
 

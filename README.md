@@ -1,6 +1,11 @@
 # SourceCodeRepo
 This repository will only contain the source code for the implementation of the solution for the ICT333 project.
 
+# Tutorials and guides
+These tutorials can be helpful if you are just starting out with git
+
+https://www.youtube.com/watch?v=Y9XZQO1n_7c
+
 # Starting a new repository.
 git init
 

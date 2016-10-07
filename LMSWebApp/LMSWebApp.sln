@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMSWebApp", "LMSWebApp\LMSWebApp.csproj", "{23CC9878-F134-4D2A-8C86-6C64B28BCB72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMSWebApp", "LMSWebApp\LMSWebApp.csproj", "{3A5ED6B8-1E16-409F-9C6D-60A3D0AEB4C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23CC9878-F134-4D2A-8C86-6C64B28BCB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23CC9878-F134-4D2A-8C86-6C64B28BCB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23CC9878-F134-4D2A-8C86-6C64B28BCB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23CC9878-F134-4D2A-8C86-6C64B28BCB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5ED6B8-1E16-409F-9C6D-60A3D0AEB4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5ED6B8-1E16-409F-9C6D-60A3D0AEB4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5ED6B8-1E16-409F-9C6D-60A3D0AEB4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5ED6B8-1E16-409F-9C6D-60A3D0AEB4C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

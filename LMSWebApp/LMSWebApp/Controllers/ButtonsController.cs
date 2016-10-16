@@ -10,9 +10,15 @@ namespace LMSWebApp.Controllers
     {
         //
         // GET: /Buttons/
+        
         public ActionResult Index()
         {
             return View();
         }
+        /*
+        public string Index()
+        {
+            return "This is the text for the buttons page";
+        }*/
     }
 }

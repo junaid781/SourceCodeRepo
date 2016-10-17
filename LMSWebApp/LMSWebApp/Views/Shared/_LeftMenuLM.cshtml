@@ -2,12 +2,14 @@
 <div class="col-md-2 bootstrap-admin-col-left">
     <ul class="nav navbar-collapse collapse bootstrap-admin-navbar-side">
         <li role="presentation" class="dropdown-header">Staff Member</li>
-        @Html.MenuItem("Apply for Leave", "Index", "LApplication")
+        @Html.MenuItem("Apply for Leave", "Index", "Home")
         @Html.MenuItem("Leave Balance", "Index", "Calendar")
         @Html.MenuItem("Leave History", "Index", "Statistics")
         @Html.MenuItem("Leave Status", "Index", "Forms")
         @Html.MenuItem("Change Password", "Index", "Tables")
         @Html.MenuItem("Logout", "Index", "Buttons")
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">Line Manager</li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-hover="dropdown">Dropdown <b class="caret"></b></a>
             <ul class="dropdown-menu">

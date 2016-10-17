@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -135,6 +135,7 @@
     <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InterfaceController.cs" />
+    <Compile Include="Controllers\LApplicationController.cs" />
     <Compile Include="Controllers\StatisticsController.cs" />
     <Compile Include="Controllers\TablesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -1668,12 +1669,15 @@
     <Content Include="Views\Shared\_Landing.cshtml">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="Views\Shared\_LeftMenu.cshtml" />
+    <Content Include="Views\Shared\_LeftMenu-deprecated.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Statistics\Index.cshtml" />
     <Content Include="Views\Tables\Index.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\Shared\_LeftMenu.cshtml" />
+    <Content Include="Views\Shared\_LeftMenuLM.cshtml" />
+    <Content Include="Views\LApplication\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

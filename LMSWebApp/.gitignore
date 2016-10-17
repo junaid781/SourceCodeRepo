@@ -26,7 +26,6 @@ bld/
 *.vs/
 /LMSWebApp/.vs/
 /LMSWebApp/.vs/*
-/LMSWebApp/LMSWebApp.csproj
 /LMSWebApp/LMSWebApp.csproj.user
 LMSWebApp/LMSWebApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 # Uncomment if you have tasks that create the project's static files in wwwroot

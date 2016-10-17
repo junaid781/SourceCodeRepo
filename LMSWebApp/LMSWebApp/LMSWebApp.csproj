@@ -137,15 +137,21 @@
     <Compile Include="Controllers\InterfaceController.cs" />
     <Compile Include="Controllers\StatisticsController.cs" />
     <Compile Include="Controllers\TablesController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelperExtensions\MenuExtensions.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Models\VmDashboard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -1667,12 +1673,17 @@
     <Content Include="Views\Statistics\Index.cshtml" />
     <Content Include="Views\Tables\Index.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helpers\Helpers.csproj">
+      <Project>{1fcff76a-5d34-4168-8d58-57bc97cd12fe}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

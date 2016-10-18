@@ -136,6 +136,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InterfaceController.cs" />
     <Compile Include="Controllers\LApplicationController.cs" />
+    <Compile Include="Controllers\LBalanceController.cs" />
+    <Compile Include="Controllers\LHistoryController.cs" />
+    <Compile Include="Controllers\LStatusController.cs" />
     <Compile Include="Controllers\StatisticsController.cs" />
     <Compile Include="Controllers\TablesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -1678,6 +1681,7 @@
     <Content Include="Views\Shared\_LeftMenu.cshtml" />
     <Content Include="Views\Shared\_LeftMenuLM.cshtml" />
     <Content Include="Views\LApplication\Index.cshtml" />
+    <Content Include="Views\LHistory\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

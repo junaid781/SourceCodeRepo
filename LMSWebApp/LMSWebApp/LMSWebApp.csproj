@@ -1682,6 +1682,8 @@
     <Content Include="Views\Shared\_LeftMenuLM.cshtml" />
     <Content Include="Views\LApplication\Index.cshtml" />
     <Content Include="Views\LHistory\Index.cshtml" />
+    <Content Include="Views\LBalance\Index.cshtml" />
+    <Content Include="Views\LStatus\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

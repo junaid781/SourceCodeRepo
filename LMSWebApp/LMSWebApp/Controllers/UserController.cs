@@ -30,7 +30,7 @@ namespace LMSWebApp.Controllers
                 if (user.IsValid(user.UserName, user.Password))
                 {
                     FormsAuthentication.SetAuthCookie(user.UserName, user.RememberMe);
-                    return RedirectToAction("Index", "LApplication");
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {

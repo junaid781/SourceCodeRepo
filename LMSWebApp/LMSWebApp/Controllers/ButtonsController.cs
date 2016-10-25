@@ -13,7 +13,7 @@ namespace LMSWebApp.Controllers
         
         public ActionResult Index()
         {
-            return View();
+            return View("Index");
         }
         /*
         public string Index()

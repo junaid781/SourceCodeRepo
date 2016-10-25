@@ -7,27 +7,27 @@
 {
     @Html.ValidationSummary(true, "Login failed. Check your login details.");
     <div class="bootstrap-admin-login-form">
-        <h1>Login</h1>
-        
-        <div class="form-group">
-            @Html.LabelFor(u => u.UserName)
-        </div>
-        <div class="form-group">
-            @Html.TextBoxFor(u => u.UserName)
-            @Html.ValidationMessageFor(u => u.UserName)
-        </div>
-        <div class="editor-label">
-            @Html.LabelFor(u => u.Password)
-        </div>
-        <div class="editor-field">
-            @Html.PasswordFor(u => u.Password)
-            @Html.ValidationMessageFor(u => u.Password)
-        </div>
-        <div class="editor-label">
-            @Html.CheckBoxFor(u => u.RememberMe)
-            @Html.LabelFor(u => u.RememberMe)
-        </div>
-        <input class ="btn btn-lg btn-primary" type="submit" value="Submit" />
-        
+        <fieldset>
+            <legend>Login</legend>
+            <div class="editor-label">
+                @Html.LabelFor(u => u.UserName)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.UserName)
+                @Html.ValidationMessageFor(u => u.UserName)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(u => u.Password)
+            </div>
+            <div class="editor-field">
+                @Html.PasswordFor(u => u.Password)
+                @Html.ValidationMessageFor(u => u.Password)
+            </div>
+            <div class="editor-label">
+                @Html.CheckBoxFor(u => u.RememberMe)
+                @Html.LabelFor(u => u.RememberMe)
+            </div>
+            <input type="submit" value="Log In" />
+        </fieldset>
     </div>
 }
